@@ -1,19 +1,20 @@
 {
   "name": "ReactDomExp",
-  "main": "src/app.ts",
+  "main": "src/app.tsx",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@nativescript/core": "~8.3.0",
-    "@react-navigation/core": "^5.15.3",
-    "react": "~16.13.1",
-    "react-nativescript": "^3.0.0-beta.3",
-    "react-nativescript-navigation": "3.0.0-beta.2"
+    "dominative": "^0.0.3-alpha.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "@nativescript/android": "8.3.1",
     "@nativescript/types": "~8.3.0",
     "@nativescript/webpack": "~5.0.6",
-    "@types/react": "16.9.34",
+    "@types/react": "18.0.18",
     "patch-package": "~6.4.7",
     "typescript": "~4.5.5"
   },
